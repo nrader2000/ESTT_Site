@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<title>ESTT - Vampires/Werewolfs</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/images/ESTT_Logo1.png"/>
+<link rel='stylesheet' href='/stylesheets/style.css' />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+<body class="w3-black" style="font-family: Montserrat, sans-serif;">
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center" style="width:120px; background: #222">
+  <!-- Avatar image in top left corner -->
+  <img src="/images/ESTT_Logo1.png" style="width:100%">
+  <a href="/" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <div class="w3-dropdown-hover w3-hover-black">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-user w3-xxlarge"></i>
+      <p>
+        ABOUT
+        <i class="fa fa-caret-down"></i>
+      </p>
+    </a>
+    <div class="w3-dropdown-content w3-bar-block">
+      <a href="/about" class="w3-bar-item w3-button w3-hover-black">About ESTT</a>
+      <a href="/playerguidenav" class="w3-bar-item w3-button w3-hover-black">Player Guide Docs</a>
+    </div>
+  </div>
+  <a href="/database" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-table w3-xxlarge"></i>
+    <p>DATABASE</p>
+  </a> 
+  <a href="/resources" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-file-text w3-xxlarge"></i>
+    <p>RESOURCES</p>
+  </a> 
+  <a href="/news" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-bell w3-xxlarge"></i>
+    <p>NEWS</p>
+  </a>
+  <a href="/contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-bottom w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="/" class="w3-bar-item w3-button" style="width:33.3% !important">HOME</a>
+    <a href="/about" class="w3-bar-item w3-button" style="width:33.3% !important">ABOUT</a>
+    <a href="/database" class="w3-bar-item w3-button" style="width:33.3% !important">DATABASE</a>
+    <a href="/resources" class="w3-bar-item w3-button" style="width:33.3% !important">RESOURCES</a>
+    <a href="/news" class="w3-bar-item w3-button" style="width:33.3% !important">NEWS</a>
+    <a href="/contact" class="w3-bar-item w3-button" style="width:33.3% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large w3-black" id="main">
+  <!-- Header/Home -->
+  <a href="/playerguidenav" class="link"><i class="fas fa-caret-left"></i> Back to Docs</a>
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <img src="/images/ESTT_Logo1.png" alt="ESTT Logo" class="w3-image">
+    <h1>Vampires/Werewolfs</h1>
+  </header>
+
+<div class="text-content w3-display-container">
+    <h3>Vampirism</h3>
+    <hr>
+    <h4>Vampiric Stages</h4>
+    <p>
+        Vampirism can be either contracted after not dealing with sanguine vampiris or 
+        it can be given by vampires if that is what the person wishes. Vampirism grows 
+        in stages if the person does not feed after a certain amount of days. 
+        These are the stages and the abilities that get aquired after each stage is achieved.
+    </p>
+    <table>
+        <tr>
+            <th>Stages</th>
+            <th>Elemental Passives</th>
+            <th>Spells/Powers</th>
+            <th>Abilities</th>
+        </tr>
+        <tr>
+            <td>Stage 1</td>
+            <td>
+                Resist Frost: 20%<br>
+                Weakness to Fire: 20%
+            </td>
+            <td>
+                Vampiric Drain (spell version)
+                Vampire's Servant<br>
+                Vampire's Sight
+            </td>
+            <td>
+                Nightwalker's Footsteps<br>
+                Vampiric Strength: 5 pts<br>
+                Weakness to Sunlight: 15 pts
+            </td>
+        </tr>
+        <tr>
+            <td>Stage 2</td>
+            <td>
+                Resist Frost: 30%<br>
+                Weakness to Fire: 30%
+            </td>
+            <td>
+                Vampiric Drain (spell version)
+                Vampire's Servant<br>
+                Vampire's Sight<br>
+                Vampire's Seducation
+            </td>
+            <td>
+                Nightwalker's Footsteps<br>
+                Vampiric Strength: 10 pts<br>
+                Weakness to Sunlight: 30 pts
+            </td>
+        </tr>
+        <tr>
+            <td>Stage 3</td>
+            <td>
+                Resist Frost: 40%<br>
+                Weakness to Fire: 40%
+            </td>
+            <td>
+                Vampiric Drain (spell version)
+                Vampire's Servant<br>
+                Vampire's Sight<br>
+                Vampire's Seducation
+            </td>
+            <td>
+                Nightwalker's Footsteps<br>
+                Vampiric Strength: 15 pts<br>
+                Weakness to Sunlight: 45 pts
+            </td>
+        </tr>
+        <tr>
+            <td>Stage 4</td>
+            <td>
+                Resist Frost: 50%<br>
+                Weakness to Fire: 50%
+            </td>
+            <td>
+                Vampiric Drain (spell version) 
+                Vampire's Servant<br>
+                Vampire's Sight<br>
+                Vampire's Seducation<br>
+                Embrace of Shadows
+            </td>
+            <td>
+                Nightwalker's Footsteps<br>
+                Vampiric Strength: 20 pts<br>
+                Weakness to Sunlight: 60 pts
+            </td>
+        </tr>
+    </table>
+    <p>
+        As well as having these buffs/debuffs; vampires also get complete immunity 
+        to all poisons and diseases. The main thing you have to worry about as a vampire 
+        is the Sun. Your Health, Mana, and Stamina do not regenerate while in sunlight, 
+        your health is also reduced by the weakness to sunlight debuff in the table above.										
+    </p>
+    <br>
+    <h4>Vampire Lord Form</h4>
+    <p>
+        If the person is gifted blood from a very powerful vampire lord, they also 
+        get the ability to transform into a Vampire Lord themselves. Your entire form 
+        changes as well as your form of combat. You are able to unlock perks that will 
+        enhance your gameplay while in the form of a Vampire Lord. You get the ability to 
+        unlock a perk once the session you unlock the ability to transform is complete(the amount 
+        of perks you get is determined by the dm). Can only turn into a Vampire Lord once a day. 
+        The table below this shows the default actions you can take in Vampire Lord form.
+    </p>
+    <table>
+        <tr>
+            <th>Actions</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>Melee Strike</td>
+            <td>Basic swipe of your claw on a single target(damage based of Vampiric Strength stat)</td>
+        </tr>
+        <tr>
+            <td>Vampiric Drain</td>
+            <td>Use your blood magic to abosrb 25 points of health from the target</td>
+        </tr>
+        <tr>
+            <td>Vampire's Servant</td>
+            <td>Reanimate a dead body to fight for you for 2 turns</td>
+        </tr>
+    </table>
+    <br>
+    <h4>Vampire Lord Perks</h4>
+    <p>
+        The table below shows all the perks you can unlock for Vampire Lord form.
+    </p>
+    <table>
+        <tr>
+            <th>Perk Name</th>
+            <th>Description</th>
+            <th>Requirement</th>
+        </tr>
+        <tr>
+            <td>Power of the Grave</td>
+            <td>50 additional points of Health, Mana, and Stamina in Vampire Lord form</td>
+            <td>None</td>
+        </tr>
+        <tr>
+            <td>Detect all Creatures</td>
+            <td>Detects all creatures in the area</td>
+            <td>Power of the Grave</td>
+        </tr>
+        <tr>
+            <td>Mist Form</td>
+            <td>Turn into invulnerable mist(cant attack of be attacked) for 2 turns</td>
+            <td>Detect all Creatures</td>
+        </tr>
+        <tr>
+            <td>Blood Healing</td>
+            <td>Killing a person with a power attack(melee) will restore all your Health</td>
+            <td>Power of the Grave</td>
+        </tr>
+        <tr>
+            <td>Poison Talons</td>
+            <td>Melee Attacks deal 20 points of poison damage</td>
+            <td>Blood Healing</td>
+        </tr>
+        <tr>
+            <td>Night Cloak</td>
+            <td>Enemies in melee range are attacked by bats taking 8 points of damage per turn for 4 turns</td>
+            <td>Poison Talons</td>
+        </tr>
+        <tr>
+            <td>Vampiric Grip</td>
+            <td>Can pull an enemy to you from a distance and deals 5 points of damage per turn once close</td>
+            <td>Power of the Grave</td>
+        </tr>
+        <tr>
+            <td>Summon Gargoyle</td>
+            <td>Summons a Gargoyle to fight for you for 2 turns</td>
+            <td>Vampiric Grip</td>
+        </tr>
+        <tr>
+            <td>Corpse Curse</td>
+            <td>Target that fails to resist is paralyzed for 2 turns</td>
+            <td>Summon Gargoyle</td>
+        </tr>
+    </table>
+</div>
+
+<div class="text-content w3-display-container">
+    <h3>Lycnthropy</h3>
+    <hr>
+    <p>
+        Lycanthropy can be aquired by being gifted another werewolf's blood. 
+        This power grants the person complete immunity to disease as well as 
+        the power to transform into a powerful werewolf. Can only turn 
+        into a werewolf once a day.					
+    </p>
+    <br>
+    <h4>Werewolf Form</h4>
+    <p>
+        As a werewolf you get powerful abilities that will have your opponents wishing 
+        they had never faced you. You can get more abilities by unlocking perks 
+        within the werewolf perk tree. You get the ability to unlock a perk once the session 
+        you unlock the ability to transform is complete(the amount of perks you get is determined 
+        by the dm). The table below shows off the defauly actions you can take in Werewolf form.										
+    </p>
+    <table>
+        <tr>
+            <th>Actions</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>Melee Strike</td>
+            <td>Basic swipe of your claw dealing 25 damage on a single target(damage based off Bestial Strength stat)</td>
+        </tr>
+        <tr>
+            <td>Close Fling</td>
+            <td>Flings a single target down nearby the user forcing them to get up for a turn</td>
+        </tr>
+        <tr>
+            <td>Beastial Howl</td>
+            <td>Preform a mostrous howl to scare any nearby enemies up to level 20 forcing them to flee for 1 turn</td>
+        </tr>
+    </table>
+    <br>
+    <h4>Werewolf Perks</h4>
+    <p>
+        The table below shows all the perks you can unlock for Werewolf form.
+    </p>
+    <table>
+        <tr>
+            <th>Perk Name</th>
+            <th>Description</th>
+            <th>Requirement</th>
+        </tr>
+        <tr>
+            <td>Bestial Strength(1-4)</td>
+            <td>Do 25/50/75/100% more damage with melee strike in werewolf form</td>
+            <td>None</td>
+        </tr>
+        <tr>
+            <td>Totem of Ice Brothers</td>
+            <td>Call fourth 2 Ice wolves to fight for you for 2 turns</td>
+            <td>Bestial Strength</td>
+        </tr>
+        <tr>
+            <td>Totem of the Moon</td>
+            <td>Call fourth another Werewolf to fight for you for 2 turns</td>
+            <td>Totem of Ice Brothers</td>
+        </tr>
+        <tr>
+            <td>Totem of the Predator</td>
+            <td>Able to use the Totem of the Hunt power(Check under Powers in the Database page)</td>
+            <td>Bestial Strength</td>
+        </tr>
+        <tr>
+            <td>Totem of Terror</td>
+            <td>Beastial Howl affects higher level enemies (+20 levels)</td>
+            <td>Bestial Strength</td>
+        </tr>
+        <tr>
+            <td>Animal Vigor</td>
+            <td>100 additional points of Health and Stamina in werewolf form</td>
+            <td>Bestial Strength</td>
+        </tr>
+        <tr>
+            <td>Gorging</td>
+            <td>Killing a person with a power attack(melee) will restore all your Health</td>
+            <td>Animal Vigor</td>
+        </tr>
+    </table>
+</div>
+
+  <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <a href="https://www.facebook.com/Elder-Scrolls-Tabletop-101978168756987"><i class="fa fa-facebook w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/5alty64/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://discord.gg/Dkk2XtcT"><i class="fa fa-discord w3-hover-opacity"></i></a>
+    <a href="mailto:elitemaster210@gmail.com"><i class="fa fa-envelope-open w3-hover-opacity"></i></a>
+    <p class="w3-medium">&copy; 2021 ESTT</p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+</body>
+</html>

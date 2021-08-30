@@ -1,0 +1,144 @@
+.w3-display-hover{
+  border-radius: 0.5em;
+  width: 90%;
+  padding: 10%;
+  background-color: rgba(0, 128, 128,0.85);
+  text-align: center;
+}
+
+.w3-animate-opactiy{
+  animation-duration: 0.1s;
+}
+
+.text-content{
+  margin: 2%;
+  padding: 2%;
+  overflow: auto;
+  border-radius: 0.5em;
+  background-color: rgba(34, 34, 34,0.75);
+}
+
+.text-content a:hover {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 0.5em;
+  background-color: rgba(0, 128, 128,1);
+}
+
+.w3-sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+.w3-col a{
+  background-color: rgba(0, 128, 128,1);
+  color: white;
+  border: none;
+  padding: 6%;
+  margin-top: 10%;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 0.5em;
+  text-decoration: none;
+  text-align: center;
+}
+
+.w3-col a:hover{
+  background-color: rgba(0, 128, 128,0.5);
+}
+
+
+button{
+  background-color: rgba(0, 128, 128,1);
+  color: white;
+  border: none;
+  padding: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 0.5em;
+  text-decoration: none;
+  text-align: center;
+}
+
+button:hover{
+  background-color: rgba(0, 128, 128,0.5);
+}
+
+table{
+  display: flexbox;
+  font-size: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  border: 2px solid white;
+  background-color: rgba(50, 50, 50,1); 
+  border-collapse: collapse;
+}
+
+table th{
+  margin: 5%;
+  background-color: rgba(0, 128, 128,1);
+  border: 1px solid #ddd;
+} 
+
+table td{
+  width: 5%;
+  text-align: center;
+  padding: 0.75%;
+  margin: 1%;
+  border: 1px solid #ddd;
+}
+
+tr:nth-child(even){background-color: rgba(65, 65, 65,1);}
+
+tr:hover {background-color: rgba(0, 128, 128,1);}
+
+#search_input{
+  background-color: transparent;
+  color: white;
+  outline: none;
+  padding: 0.5%;
+  width: 60%;
+  border: 0;
+  border-bottom: 2px solid white; 
+  transition: 0.2s;
+}
+
+#search_input::placeholder{
+  color: rgba(255, 255, 255, 0.808);
+}
+
+#search_input:focus{
+  padding: 0.75%;
+  border-bottom: 3px solid rgba(0, 128, 128,1);
+}
+
+li{
+  margin-top: 10px;
+}
+
+.link{
+  background-color: rgba(0, 128, 128,1);
+  color: white;
+  border: none;
+  padding: 1%;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 0.5em;
+  text-decoration: none;
+  text-align: center;
+}
+
+.link:hover{
+  background-color: rgba(0, 128, 128,0.5);
+}
+
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}

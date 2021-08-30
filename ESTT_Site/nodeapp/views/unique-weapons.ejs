@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title><%= title%></title>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="/images/ESTT_Logo1.png"/>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+</head>
+<body class="w3-black" style="font-family: Montserrat, sans-serif;">
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center" style="width:120px; background: #222">
+<!-- Avatar image in top left corner -->
+<img src="/images/ESTT_Logo1.png" style="width:100%">
+    <a href="/" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+        <i class="fa fa-home w3-xxlarge"></i>
+        <p>HOME</p>
+    </a>
+    <div class="w3-dropdown-hover w3-hover-black">
+        <a class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+          <i class="fa fa-user w3-xxlarge"></i>
+          <p>
+            ABOUT
+            <i class="fa fa-caret-down"></i>
+          </p>
+        </a>
+        <div class="w3-dropdown-content w3-bar-block">
+          <a href="/about" class="w3-bar-item w3-button w3-hover-black">About ESTT</a>
+          <a href="/playerguidenav" class="w3-bar-item w3-button w3-hover-black">Player Guide Docs</a>
+        </div>
+    </div>
+    <a href="/database" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+        <i class="fa fa-table w3-xxlarge"></i>
+        <p>DATABASE</p>
+    </a> 
+    <a href="/resources" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+        <i class="fa fa-file-text w3-xxlarge"></i>
+        <p>RESOURCES</p>
+    </a> 
+    <a href="/news" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-bell w3-xxlarge"></i>
+        <p>NEWS</p>
+    </a>
+    <a href="/contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+        <i class="fa fa-envelope w3-xxlarge"></i>
+        <p>CONTACT</p>
+    </a>
+</nav>
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-bottom w3-hide-large w3-hide-medium" id="myNavbar">
+    <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+        <a href="/" class="w3-bar-item w3-button" style="width:33.3% !important">HOME</a>
+        <a href="/about" class="w3-bar-item w3-button" style="width:33.3% !important">ABOUT</a>
+        <a href="/database" class="w3-bar-item w3-button" style="width:33.3% !important">DATABASE</a>
+        <a href="/resources" class="w3-bar-item w3-button" style="width:33.3% !important">RESOURCES</a>
+        <a href="/news" class="w3-bar-item w3-button" style="width:33.3% !important">NEWS</a>
+        <a href="/contact" class="w3-bar-item w3-button" style="width:33.3% !important">CONTACT</a>
+    </div>
+</div>
+      
+<div class="w3-padding-large w3-black w3-display-container" id="main">
+    <a href="/database" class="link"><i class="fas fa-caret-left"></i> Back to Database</a>
+    <div class="w3-container w3-padding-32 w3-center">
+        <h2>Unique Weapons</h2>
+        <div class="w3-row-padding w3-margin-top">
+            <div class="w3-col m2 s6 w3-display-container">
+                <a href="/database/unique-weapons?WeaponTypeID=1" style="width:100%;">Battle Axes</a>
+            </div>
+            <div class="w3-col m2 s6 w3-display-container">
+                <a href="/database/unique-weapons?WeaponTypeID=2" style="width:100%;">Bows</a>
+            </div>
+            <div class="w3-col m2 s6 w3-display-container">
+                <a href="/database/unique-weapons?WeaponTypeID=3" style="width:100%;">Crossbows</a>
+            </div>
+            <div class="w3-col m2 s6 w3-display-container">
+                <a href="/database/unique-weapons?WeaponTypeID=4" style="width:100%;">Daggers</a>
+            </div>
+            <div class="w3-col m2 s6 w3-display-container">
+                <a href="/database/unique-weapons?WeaponTypeID=5" style="width:100%;">Greatswords</a>
+            </div>
+            <div class="w3-col m2 s6 w3-display-container">
+                <a href="/database/unique-weapons?WeaponTypeID=6" style="width:100%;">Maces</a>
+            </div>
+            <div class="w3-col m2 s6 w3-display-container">
+                <a href="/database/unique-weapons?WeaponTypeID=7" style="width:100%;">Swords</a>
+            </div>
+            <div class="w3-col m2 s6 w3-display-container">
+                <a href="/database/unique-weapons?WeaponTypeID=8" style="width:100%;">War Axes</a>
+            </div>
+            <div class="w3-col m2 s6 w3-display-container">
+                <a href="/database/unique-weapons?WeaponTypeID=9" style="width:100%;">Warhammers</a>
+            </div>
+            <div class="w3-col m2 s6 w3-display-container">
+                <a href="/database/unique-weapons?WeaponTypeID=10" style="width:100%;">Other</a>
+            </div>
+        </div>
+    </div>
+    <table>
+        <tr>
+            <th>Weapon Name</th>
+            <th>Weapon Damage</th>
+            <th>Weapon Weight</th>
+            <th>Weapon Value</th>
+            <th>Weapon Description</th>
+        </tr>    
+        <%
+            if(uweaponsData.length!=0){
+            var i=1;
+            uweaponsData.forEach(function(data){
+        %>
+        <tr>
+            <td><%=data.UWeaponName %></td>
+            <td><%=data.UWeaponDamage %></td>
+            <td><%=data.UWeaponWeight %></td>
+            <td><%=data.UWeaponValue %></td>
+            <td><%=data.UWeaponDesc %></td>
+        </tr>
+        <%  i++; }) %>
+        <% } else{ %>
+        <tr>
+            <td colspan="5">No Data Found</td>
+        </tr>
+        <% } %>
+    </table>
+    <!-- Footer -->
+    <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+        <a href="https://www.facebook.com/Elder-Scrolls-Tabletop-101978168756987"><i class="fa fa-facebook w3-hover-opacity"></i></a>
+        <a href="https://www.instagram.com/5alty64/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+        <a href="https://discord.gg/Dkk2XtcT"><i class="fa fa-discord w3-hover-opacity"></i></a>
+        <a href="mailto:elitemaster210@gmail.com"><i class="fa fa-envelope-open w3-hover-opacity"></i></a>
+        <p class="w3-medium">&copy; 2021 ESTT</p>
+    <!-- End footer -->
+    </footer>
+</div>
+</body>
+</html>
